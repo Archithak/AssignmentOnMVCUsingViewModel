@@ -1,0 +1,31 @@
+﻿@model AssignmentOnMVCUsingViewModel.Models.Product
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form action="Create" method="post">
+    <div class="container">
+        <table class="table table-bordered">
+            <tr>
+                <td>ID</td>
+                <td><input type="text" name="Pid" /></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="Pname" /></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text" name="Pprice" /></td>
+            </tr>
+            <tr>
+                <td>Stock</td>
+                <td><input type="text" name="Pstock" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Add" /></td>
+            </tr>
+        </table>
+    </div>
+</form>
